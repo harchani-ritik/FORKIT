@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/bg_main.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.land{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-family: 'Raleway';
+}
+
+.header {
+    display: flex;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.location, .login {
+    flex: 1;
+    color: white;
+    font-size: 25px;
+}
+
+.login {
+    flex: 1;
+    text-align: right;
+}
+
+#in, #out {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#out {
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    opacity: .9;
+    border-radius: 5px;
+}
+
+#in a{
+    color: white;
+    text-decoration: none;
+}
+
+.content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    right: -5%;
+    transform: translate(-50%, -50%);
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    letter-spacing: 1px;
+}
+
+.search {
+    color: black;
+    background-image: url("assets/images/search_icon.jpeg");
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    opacity: .5;
+    padding: 0px 0px 0px 60px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 3%;
+}
+
+
+.line {
+    margin-bottom: 8%;
+}
+
+.search_button {
+    border-radius: 10px;
+    background-color: #95AF96;
+    border: none;
+    /* font-size: 24px; */
+    width: 100px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    padding: 3px;
+    margin: 20px;
+}
+
+.logoName {
+    font-family: 'Post No Bills Jaffna Regular';
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.logoName img {
+    margin: 30px;
+}
+.card{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+    border-radius: 5px;
+    border: .2px black solid;
+    width: 275px;
+    height: 475px;
+}
+.data {
+    width: 275px;
+    height: 200px;
+    margin-top: -5%;
+    z-index: 1;
+    overflow-x: hidden;
+    text-align: center;
+}
+.actual {
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    border-radius: 50% 50% 0% 0%;
+    margin-left: -15%;
+    
+}
+.pic{
+    background-image: url("assets/images/food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 275px;
+    height: 280px;
+}
+
+.actual img{
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.hotelname{
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.rate span{
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+.head{
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom: -50px;
+}
+.contaier{
+    background: linear-gradient(180deg, #F6C4B2 0%, #523D4F 100%);
+   
+}
+.extra{
+    display: flex;
+    
+    /* border: .2px black solid; */
+    
+    /* background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('assets/images/bg.jpeg'); */
+    font-weight: 600;
+}
+.here{
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('assets/images/bg.jpeg');
+}
+
+.what{
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-right: 20px; 
+    flex: 1;
+    font-family: 'Raleway';
+    /* box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+    border-radius: 5px;*/
+    /* border-right: .2px black solid;  */
+    height: 250px;
+}
+.press{
+    text-align: center;
+    flex:1;
+    /* box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+    border-radius: 5px;*/
+    border-left: .2px black solid; 
+    height: 250px;
+}
+.press button{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: rgb(85, 134, 87);
+    border-radius: 10px;
+}
+.what span{
+    font-size: 24px;
+}
+.herealso{
+    padding-top: 20px;
+}
+.what ul{
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+
+.press div{
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+.press button a{
+    color: white;
+    text-decoration: none;
+}
+
+.holder{
+    display: flex;
+}
+
+.view{
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+

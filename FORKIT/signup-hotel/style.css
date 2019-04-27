@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, #F6C4B2 0%, #523D4F 100%);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    padding: 5%;
+}
+
+.hotelsignup {
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), url('../assets/images/bg.jpeg');;
+    flex: 2;
+    /* text-align: center; */
+    background-color: white;
+    height: 80%;
+    font-family: 'Raleway';
+    padding-left: 10%;
+    padding-top: 6%;
+}
+
+.input {
+    margin-right: 1%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.greet {
+    font-size: 28px;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.button {
+    padding: 7px;
+    background-color: #6EB871;
+    border: none;
+    width: 100px;
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 120px;
+}
+.buttons{
+    font-size: 20px;
+    color: white;
+    padding-right: 18%;
+    text-align: right;
+    
+}

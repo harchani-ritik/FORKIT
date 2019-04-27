@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.heading {
+    background: linear-gradient(180deg, #F6C4B2 0%, #523D4F 100%);
+}
+
+.header{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.website {
+    flex: 1;
+    font-family: 'Post No Bills Jaffna Regular';
+    color: white;
+}
+.log {
+    padding: 10px;
+    flex: 1;
+    text-align: right;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.content {
+    display: flex;
+    
+}
+
+.main {
+    flex: 3;
+    /* background-color: #F6C4B2; */
+    margin: 10px;
+}
+.add {
+    flex: 1;
+    /* background-color: grey;  */
+    margin: 10px;
+    font-family: 'Raleway';
+    box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+    border-radius: 5px;
+    border: .2px black solid;
+    padding: 10px;
+}
+.category {
+    margin-top: 30px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 15px;
+    border: 0px rgb(94, 93, 93) solid;
+    box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+}
+.type{
+    
+    font-size: 22px;
+    padding: 10px;
+}
+.food, .price{
+    border: .5px rgb(94, 93, 93) solid;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.food {
+    border-bottom: none;
+    
+}
+.food img{
+    margin-top: 15px;
+}
+.price{
+    border-top: none;
+    padding-left: 60px;
+    margin-top: -6px;
+}
+
+.address{
+    height: 200px;
+    padding: 30px;
+    font-family: 'Raleway';
+    box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+    border-radius: 5px;
+    border: .2px black solid;
+    margin-bottom: 40px;
+}
+
+.hname {
+    margin-top: -10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.loc {
+    font-size: 14px;
+    opacity: .8;
+}
+
+.cost {
+    font-size: 14px;
+    opacity: .8;
+    margin-bottom: -10px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 24px;
+}
+.input:focus{
+    outline: none;
+}
+.greet {
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+#out {
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    opacity: .9;
+    border-radius: 5px;
+}
+
+#in, #out {
+    font-size: 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+#in{
+    color: white; text-decoration: none;
+}
+
+.itsbutton{
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 40px;
+    background-color: rgb(118, 204, 107);
+}

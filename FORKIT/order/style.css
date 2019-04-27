@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(204, 204, 204);
+}
+header{
+    background: linear-gradient(180deg, #F6C4B2 0%, #523D4F 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.contain {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo {
+    flex : 1;
+    font-family: 'Raleway';
+}
+.logo img {
+    margin-right: 20px;
+}
+
+.logo span {
+    font-size: 28px;
+    position: fixed;
+    top: 3%;
+    color: white;
+}
+
+.signout {
+    font-size: 28px;
+    font-family: 'Raleway';
+    flex: 1;
+    text-align: right;
+    margin-top: 1%;
+}
+
+.contain{
+    display: flex;
+}
+
+.details {
+    flex: 3;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.order {
+    flex: 1;
+    /* background-color: aqua; */
+    margin: 20px;
+    box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+    border-radius: 5px;
+    border: .2px black solid;
+}
+
+.address{
+    height: 200px;
+    padding: 30px;
+    font-family: 'Raleway';
+    box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+    border-radius: 5px;
+    border: .2px black solid;
+    margin-bottom: 40px;
+}
+
+.hname {
+    margin-top: -10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.loc {
+    font-size: 14px;
+    opacity: .8;
+}
+
+.cost {
+    font-size: 14px;
+    opacity: .8;
+    margin-bottom: -10px;
+}
+.category {
+    margin-top: 30px;
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 15px;
+    border: 0px rgb(94, 93, 93) solid;
+    box-shadow: 1px 0px 4px 2px rgba(24, 23, 24, 0.2);
+}
+.type{
+    
+    font-size: 22px;
+    padding: 10px;
+}
+.food, .price{
+    border: .5px rgb(94, 93, 93) solid;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.food {
+    border-bottom: none;
+    
+}
+.food img{
+    margin-top: 15px;
+}
+.price{
+    border-top: none;
+    padding-left: 60px;
+    margin-top: -6px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+ }
+ .quantity {
+     margin-left: 525px;
+}
+
+ .buttons button {
+    background-color: rgb(29, 170, 29);
+    width: 160px;
+    padding: 5px;
+    margin-top: -10px;
+    border: none;
+    margin-left: 110px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.order {
+    padding: 20px;
+
+}
+.gyan{
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+.det{
+    margin-top: 10px;
+}
+.confirm{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(99, 189, 99);
+    color: white;
+}
+#in, #out {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+#out {
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    opacity: .9;
+    border-radius: 5px;
+}
+
+#in a{
+    color: white;
+    text-decoration: none;
+}
